@@ -1,0 +1,58 @@
+body {
+  margin: 0px 0px;
+  background-color: #727272;
+}
+
+.container_12 {
+  background: url('../images/hand.jpg');
+  background-repeat: no-repeat;
+
+}
+
+header {
+  height: 70px;
+  width: 100%;
+  position: fixed;
+}
+
+nav {
+  padding-left: 500px;
+  height: 40px;
+}
+nav li{
+  display: inline;
+  float:left;
+  width:80px;
+  font-size: 15;
+}
+
+.grid_3 ,hr ,footer ,ul{
+  margin: 0px 0px;
+}
+#Wiki
+{
+  margin: 0px 0px;
+  padding:0px 10px;
+  background-color: white;
+  overflow: hidden;
+}
+#hero-img {
+  margin: 0px 0px;
+  height: 400px;
+  width: 600px;
+  background: url('../images/how.jpg');
+  background-repeat: no-repeat;
+}
+
+footer {
+  height: 50px;
+  background-color: white;
+}
+footer li{
+  margin: 0px 0px;
+  display: inline;
+  float: right;
+  text-align: right;
+  width:50px;
+  font-size: 15;
+}
