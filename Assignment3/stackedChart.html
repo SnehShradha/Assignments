@@ -5,7 +5,7 @@
 <style>
 
 body {
-  font: 10px sans-serif;
+  font: 14px sans-serif;
 }
 
 .axis path,
@@ -78,8 +78,8 @@ svg.append("g")
     .call(xAxis)
   .selectAll("text")
     .style("text-anchor", "end")
-    .attr("dx", "-.100em")
-    .attr("dy", "-.100em");
+    .attr("dx", "-.500em")
+    .attr("dy", "0.7em");
 
 svg.append("g")
 .attr("class", "y axis")
@@ -112,15 +112,15 @@ var legend = svg.selectAll(".legend")
 .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
 
 legend.append("rect")
-.attr("x", width - 18)
-.attr("width", 0.1)
-.attr("height", 0.1)
+.attr("x", width -890)
+.attr("width", 18)
+.attr("height", 18)
 .style("fill", color);
 
 legend.append("text")
-.attr("x", width - 24)
-.attr("y", 9)
-.attr("dy", ".15em")
+.attr("x", width -900)
+.attr("y", 5)
+.attr("dy", "1em")
 .style("text-anchor", "end")
 .text(function(d) { return d; });
 

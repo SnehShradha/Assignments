@@ -10,11 +10,11 @@
   }
 
   .bar:hover{
-    fill: brown;
+    fill: red;
   }
 
 	.axis {
-	  font: 10px sans-serif;
+	  font: 14px sans-serif;
 	}
 
 	.axis path,
@@ -37,7 +37,7 @@
 <script>
 // set the dimensions of the canvas
 var margin = {top: 20, right: 20, bottom: 20, left: 40},
-width = 1100 - margin.left - margin.right,
+width = 1000 - margin.left - margin.right,
 height = 550 - margin.top - margin.bottom;
 
 
@@ -55,7 +55,7 @@ var xAxis = d3.svg.axis()
 var yAxis = d3.svg.axis()
     .scale(y)
     .orient("left")
-    .ticks(15);
+    .ticks(20);
 
 
 // add the SVG element
@@ -86,8 +86,8 @@ d3.json("top5.json", function(error, data) {
       .call(xAxis)
     .selectAll("text")
       .style("text-anchor", "end")
-      .attr("dx", "-.100em")
-      .attr("dy", "-.100em");
+      .attr("dx", "-.500em")
+      .attr("dy", "0.7em");
 
   svg.append("g")
       .attr("class", "y axis")
@@ -95,7 +95,7 @@ d3.json("top5.json", function(error, data) {
     .append("text")
       .attr("transform", "rotate(-90)")
       .attr("y", 5)
-      .attr("dy", "-3.5em")
+      .attr("dy", "-2.5em")
       .style("text-anchor", "end")
       .text("Life Expectency");
 
