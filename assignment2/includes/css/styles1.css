@@ -1,0 +1,24 @@
+footer {
+	background: #bbb;
+	color: #fff;
+	font-size: 11px;
+	padding: 20px;
+}
+
+h6 {
+ font-size: 12px;
+ margin: 0px 0px;
+ line-height: 20px;
+}
+
+span.glyphicon {
+	margin-right: 5px;
+}
+
+/* phone  or tablet */
+@media (max-width: 768px) {
+ }
+
+/* Large desktop */
+@media (min-width: 1200px) {
+}
