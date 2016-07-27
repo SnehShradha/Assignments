@@ -1,0 +1,39 @@
+body{
+    margin: auto;
+    background: #800080;
+}
+
+#app{
+  background: #ffffff;
+}
+.footer{
+  background: #D3D3D3;
+}
+#DELETE ,#ADD{
+  margin-left: 250px ;
+  margin-right: 50px;
+}
+#searchInput{
+  margin-right: 50px;
+}
+li:active {
+    background-color: blue;
+}
+.search-form{
+    width: 100%;
+    margin: auto;
+    background: #f4f4f4;
+    padding: 6px 0px 6px 0px;
+    border: 1px #ccc solid;
+    border-radius: 10px;
+}
+img{
+    margin: 10px 10px 10px 10px;
+    border: 1px #00ffff solid;
+    height : 50%;
+    width: 97%;
+}
+.thumbnail {
+  height : 50%;
+  width: 80%;
+}
