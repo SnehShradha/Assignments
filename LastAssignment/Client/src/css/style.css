@@ -1,0 +1,33 @@
+body{
+    margin: auto;
+    background: #f4f4f4;
+}
+.mailboxes {
+    margin: 25px auto;
+    width: 120px;
+}
+#ADD{
+  margin-left: 25px;
+}
+
+.mailbox {
+    margin-top: 25px;
+}
+
+.email-viewer {
+    padding: 25px;
+    border: #f0f0f0 solid 1px;
+    background: #f8f8f8;
+}
+
+.none-selected {
+    margin: 20px;
+    padding: 20px;
+    font-size: 1.2em;
+}
+#myMDialog{
+ position: static;
+ width:800px;
+ overflow-y: auto;
+ overflow-x: auto;
+}
